@@ -99,6 +99,32 @@ button {
 .uniqa{
     color: aquamarine;
 }
+@media screen and (max-width: 600px) {
+    .form {
+        background: none;
+        align-items: center;
+        width: 400px;
+        padding: 40px 40px;
+        
+        
+    }
+
+    input {
+        padding: 10px 10px;
+        
+    }
+
+    h2{
+        font-size: 36px;
+    }
+    p {
+        font-size: 15px;
+    }
+    button {
+        padding: 10px 40px;
+        font-size: 15px;
+    }
+}
 
 
 
