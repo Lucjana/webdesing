@@ -224,12 +224,19 @@ button {
 
 @media screen and (max-width: 600px) {
     .navbar .links li {
-        font-size: 15px;
+        font-size: 25px;
         transition-property: font-size;
-        background: none;
+        transition-duration: 0.2s;
+        display: grid;
+        grid-gap: 5px;
     }
     .navbar ul li:hover{
         font-size: 30px;
+    }
+
+    .navbar .links li a {
+        display: grid;
+        grid-gap: 5px;
     }
     
     
