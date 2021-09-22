@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+    min-height: 100vh;
+    background-color: #dca0b0;
+    background-image: -webkit-linear-gradient(0deg, #dca0b0 0%, #97D9E1 100%);
+    background-image: -moz-linear-gradient(0deg, #dca0b0 0%, #97D9E1 100%);
+    background-image: -o-linear-gradient(0deg, #dca0b0 0%, #97D9E1 100%);
+    background-image: linear-gradient(0deg, #dca0b0 0%, #97D9E1 100%);
+    background-size: cover;
+    padding-bottom: 150px;
+    color:white;
+    
+
+}
+
+.form {
+    width: 600px;
+    margin:0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 100px;
+    background: url(./img/hector-reyes-aZr6ugg4KWI-unsplash.jpg) no-repeat 0px 0px;
+    background-position: center;
+    background-size: cover;
+    -webkit-box-shadow: 4px 7px 54px -9px rgba(0,0,0,0.75);
+    -moz-box-shadow: 4px 7px 54px -9px rgba(0,0,0,0.75);
+    box-shadow: 4px 7px 54px -9px rgba(0,0,0,0.75);
+    border-radius: 10px;
+    
+
+}
+
+p{
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 50px;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 2px;
+    text-align: center;
+    transition-property: letter-spacing;
+    transition-duration: 1s;
+    cursor: pointer;
+   
+
+}
+
+h2:hover{
+    letter-spacing: 10px;
+}
+
+input {
+    padding: 10px 10px;
+    border-radius: 10px;
+    background: none;
+    border: solid 3px white;
+    
+}
+
+select {
+    padding: 10px 10px;
+    border-radius: 10px;
+    background: none;
+    border: solid 3px white;
+    color:white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+
+}
+
+option {
+    color:black;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+}
+
+button {
+   
+    padding: 30px 100px;
+    border-radius: 10px;
+    background: none;
+    border: solid 3px white;
+    color:white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.uniqa{
+    color: aquamarine;
+}
+
+
+

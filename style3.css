@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+    min-height: 100vh;
+    background-color: #FBAB7E;
+    background-image: -webkit-linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+    background-image: -moz-linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+    background-image: -o-linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+    background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+    background-size: cover;
+    padding-bottom: 150px;
+    color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+
+}
+
+.conteiner{
+    background: url(./img/facundo-aranda-Nx0Au3XB1Dc-unsplash\ \(1\).jpg);
+    width: 600px;
+    margin:0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    -webkit-box-shadow: 4px 7px 54px -9px rgba(0,0,0,0.75);
+    -moz-box-shadow: 4px 7px 54px -9px rgba(0,0,0,0.75);
+    box-shadow: 4px 7px 54px -9px rgba(0,0,0,0.75);
+    border-radius: 10px;
+    padding: 50px 50px;
+    
+}
+
+h2 {
+    font-size: 50px;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 2px;
+}
+
+.pbody{
+    font-size: 20px;
+}
+
+input {
+    padding: 10px 10px;
+    border-radius: 10px;
+    background: none;
+    border: solid 3px black;
+}
+button {
+   
+    padding: 10px 40px;
+    border-radius: 10px;
+    background: none;
+    border: solid 3px black;
+    color:black;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+    
+}
+
+@media screen and (max-width: 600px) {
+    .conteiner {
+        width: 400px;
+    }
+}

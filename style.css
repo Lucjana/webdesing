@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+
+body {
+    margin:0;
+    background-color: white
+}
+
+.navbar ul {
+    display: grid;
+    grid-gap: 10px;
+    padding: 0;
+    list-style: none;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    background-color: whitesmoke;
+    margin: 0;
+    
+}
+
+.navbar ul li {
+    font-size: 40px;
+    font-family: 'Bebas Neue', cursive;
+    color: black;
+    transition-property: font-size;
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: black;
+}
+.ig :hover{
+    color: purple;
+}
+.yt :hover {
+    color:red;
+}
+
+.navbar ul li:hover{
+    font-size: 50px;
+}
+
+.conteiner {
+    align-items: center;
+    width: 80%;
+    max-width: 1000px;
+    
+}
+
+header{
+    background: white url(./img/RRRFre.jpg);
+    background-size: cover;
+    background-position: center;
+    width: auto;
+    height: auto; 
+    margin:0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 400px;
+    min-height: 400px;
+
+    
+}
+
+header h1 {
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 6px;
+    font-size: 100px;
+    color: brown;
+    transition-property: letter-spacing;
+    transition-duration: 1s;
+    
+}
+header p {
+    color: cadetblue;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+    align-items: center;
+    text-align: center;
+    text-decoration: overline;
+    
+    
+
+   
+}
+
+
+
+header h1:hover {
+    letter-spacing: 10px;
+
+}
+
+h2 {
+    color:mediumaquamarine;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+    letter-spacing: 6px;
+    transition-property: color;
+    transition-duration: 1s;
+    padding: 20px 20px;
+    
+}
+
+h2:hover {
+    color:lightseagreen;
+}
+
+video {
+    padding: 5px 10px;
+    margin: auto;
+    
+}
+
+.q .video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+form #q {
+    padding: 10px 10px;
+    display: grid;
+    grid-column: span;
+
+}
+
+.imag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    padding: 5px 10px;
+    margin: auto;
+}
+
+footer {    
+    color:black;
+    font-family: 'Oswald', sans-serif;
+    padding: 100px 100px;
+    text-align: center;
+    
+    
+
+
+}
+
+.contacto {
+    display: flex;
+    flex-direction: column;   
+    max-width: 400px; 
+    margin: auto;
+   
+    
+    
+    
+}
+
+#normal {
+    padding: 10px 10px;
+    border: 1px solid mediumaquamarine;
+    
+}
+
+#text {
+    border: 1px solid mediumaquamarine;
+   
+}
+
+.contact {
+
+    padding-top: 70px;
+    color:mediumaquamarine;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+    letter-spacing: 6px;
+    transition-property: color; 
+    transition-duration: 1s;
+    padding: 20px 20px;
+    
+        
+    
+}
+
+#normal::-webkit-input-placeholder{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 15px;
+    color:black;
+}
+
+#text::-webkit-input-placeholder{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 15px;
+    color:black;
+    
+
+}
+
+button {
+    border-radius: 10px;
+    background: mediumaquamarine;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 15px;
+    
+}
+
+.imagenes {
+    display: flex;
+}
+
+@media screen and (max-width: 600px) {
+    .navbar .links li {
+        font-size: 25px;
+        transition-property: font-size;
+    }
+    .navbar ul li:hover{
+        font-size: 30px;
+    }
+    
+    
+
+    .header h1 {
+        font-size: 40px;
+    }
+    .header p {
+        font-size: 25px;
+    }
+    h2 {
+        font-size: 35px;
+    }
+
+    .video {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .imag {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact {
+        font-size: 35px;
+    }
+
+    .imagenes .right {
+        display: none;
+    }
+
+    .imagenes .left {
+        width: 470px;
+    }
+}
+
