@@ -14,7 +14,7 @@ body {
     padding: 0;
     list-style: none;
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-    background-color: whitesmoke;
+    background-color: black;
     margin: 0;
     
 }
@@ -30,7 +30,7 @@ body {
 
 .navbar ul li a {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 .ig :hover{
     color: purple;
@@ -72,8 +72,7 @@ header h1 {
     letter-spacing: 6px;
     font-size: 100px;
     color: brown;
-    transition-property: letter-spacing;
-    transition-duration: 1s;
+   
     
 }
 header p {
@@ -90,11 +89,6 @@ header p {
 }
 
 
-
-header h1:hover {
-    letter-spacing: 10px;
-
-}
 
 h2 {
     color:mediumaquamarine;
@@ -224,22 +218,24 @@ button {
 
 @media screen and (max-width: 600px) {
     .navbar .links li {
-        font-size: 25px;
         transition-property: font-size;
-        transition-duration: 0.2s;
-        display: grid;
-        grid-gap: 5px;
+        text-align: center;
     }
-    .navbar ul li:hover{
-        font-size: 30px;
+    .navbar ul {
+        display:grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 2fr));
+        
+
+    }
+    video {
+        height: 200px;
+        width: 300px;
     }
 
-    .navbar .links li a {
-        display: grid;
-        grid-gap: 5px;
+    img {
+        height: 30%;
+        width: 70%;
     }
-    
-    
 
     .header h1 {
         font-size: 40px;
@@ -248,7 +244,7 @@ button {
         font-size: 25px;
     }
     h2 {
-        font-size: 35px;
+        font-size: 25px;
     }
 
     .video {
@@ -262,7 +258,7 @@ button {
     }
 
     .contact {
-        font-size: 35px;
+        font-size: 25px;
     }
 
     .imagenes .right {
@@ -270,7 +266,7 @@ button {
     }
 
     .imagenes .left {
-        width: 470px;
+        width: 350px;
     }
 }
 
